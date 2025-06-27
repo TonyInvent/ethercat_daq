@@ -75,6 +75,7 @@ ethercat slaves
 ```
 
 This command should output a list of all slaves connected on the bus, confirming that the hardware is communicating correctly.
+Actually, EtherCAT Master(from IgH) is not necessory if you just want to use a python program to read data from a DAQ device. The main reason to install it is to use the command line tool to check EtherCAT slave devices.
 
 ## 5. Install Python Dependencies
 
